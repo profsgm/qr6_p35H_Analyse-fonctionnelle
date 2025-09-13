@@ -1,0 +1,102 @@
+#resultpage
+{
+    padding-top:78px;
+    padding-left:90px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #resultpage{
+        /*SAFARI ONLY HACK*/
+        padding-top:75px;
+        padding-left:90px;
+    }
+}
+
+
+#resulttitle
+{
+    /*OTHERS*/
+    padding-left:25px;
+    margin-left:10px;
+    background:url(../images/skin/arrowOnly.png) left 2px no-repeat;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #resulttitle{
+        /*SAFARI ONLY HACK*/
+        padding-left:25px;
+        margin-left:10px;
+        background:url(../images/skin/arrowOnly.png) left 1px no-repeat;
+    }
+}
+
+
+.resultheader
+{
+    margin-top:8px;
+    margin-left:36px;
+    border-top:solid 1px #d9d9d9;
+    border-left:solid 1px #d9d9d9;
+}
+.resultheader td
+{
+    border-right:solid 1px #d9d9d9;
+    border-bottom:solid 1px #d9d9d9;
+    text-align:center;
+}
+.resultheader div
+{
+    background-color:#d9d9d9;
+    margin:1px;
+    font-size:10pt;
+    height:17px;
+    padding-top:3px;
+}
+.resultcontent
+{
+    margin-left:36px;
+    text-align:left;
+    width:624px;
+}
+.resulttable
+{
+    border-left:solid 1px #d9d9d9;
+
+}
+.resulttable td
+{
+    text-align:center;
+    font-size:12pt;
+    border-bottom:solid 1px #d9d9d9;
+    border-right:solid 1px #d9d9d9;
+    padding:7px 0 7px 0;
+    
+}
+.resulttable td a
+{
+    text-decoration:none;
+    font-size:12pt;
+    color:Blue;
+}
+.resulttable td a:hover
+{
+    text-decoration:underline;
+}
+#resultButtons
+{
+    padding-top:8px;
+    margin-left:20px;
+    width:601px;
+    text-align:right;
+}
+#resultButtons a
+{
+    text-decoration:none;
+}
+#resultButtons a:hover
+{
+    text-decoration:none;
+}
+#resultButtons img
+{
+    vertical-align:middle;
+}

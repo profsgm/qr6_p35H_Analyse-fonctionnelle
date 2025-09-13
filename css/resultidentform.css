@@ -1,0 +1,82 @@
+#resultIdentForm
+{
+    position:absolute;
+    top:-1000px;
+    left:-1000px;
+    max-width:500px;
+    max-height:500px;
+    border:2px solid #4d4d4d;
+    background:url(../images/base/bkg_popup.jpg) repeat-x #F6F6F6;
+}
+#resulthandle
+{
+    height:25px;
+    cursor:move;
+}
+#resultIdentFormHeader
+{
+    background:url(../images/skin/indicebullet.png) no-repeat center left;
+    padding-left:30px;
+    font-size:12pt;
+    font-weight:bold;
+}
+#resultIdentFormLine
+{
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:5px;
+    background:blue;
+    height:2px;
+}
+#resultwrapper{
+    overflow-x:hidden;
+    overflow-y:auto;
+    margin-top:15px;
+    margin-left:30px;
+    max-width:500px;
+    max-height:435px;
+}
+#resultIdentFormTable
+{
+    margin-top:15px;
+    padding-right:22px;
+}
+#resultIdentFormTable td
+{
+    font-size:8pt;
+    font-weight:bold;
+    text-align:right;
+    padding-right:8px;
+    padding-bottom:8px;
+    vertical-align:top;
+}
+#resultIdentFormTable input
+{
+    width:225px;
+}
+
+#resultIdentFormTable textarea
+{
+    width:225px;
+    height:90px;
+}
+#ResultIdentFormButtons
+{
+    margin-top:10px;
+    text-align:right;
+    padding-right:30px;
+    padding-bottom:25px;
+}
+#ResultIdentFormButtons a
+{
+    text-decoration:none;
+}
+#ResultIdentFormButtons a:hover
+{
+    text-decoration:none;
+}
+#ResultIdentFormButtons img
+{
+    vertical-align:middle;
+}
+
